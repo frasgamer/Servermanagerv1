@@ -38,17 +38,12 @@ client.on("message", message => {
 	         Please Chose: 
 			 
 ${prefix}help1 ⇏    **  | لعرض جميع اوامر البوت**  
-
 ${prefix}help-p ⇏    **  | لعرض الاوامر العامه**  
-
 ${prefix}help-a ⇏    **  | لعرض الاوامر الاداريه**  
  
 ${prefix}help-g ⇏    **  | لعرض الاوامر الالعاب**  
-
 ${prefix}help-m ⇏    **  | لعرض الاوامر الاغاني**  
-
 ملاحضه البوت محمي بكود الجحفله
-
         `)
    message.channel.sendEmbed(embed)
     
@@ -203,51 +198,28 @@ client.on('message', message => {
            .setDescription(`**    :sleuth_or_spy::skin-tone-1: اوامر الأداره :sleuth_or_spy::skin-tone-1:**
 **============ **
   ** -move @user |  لسحب الشخص الى روومك** :confused: 
-
   ** -bc | رسالة جماعية الى كل اعضاء السيرفر** :mega:
-
   ** -role @user <rank> | لأعطاء رتبة لعضو معين**:large_orange_diamond: 
-
   ** -roleremove @user <rank> | لازالة الرتبة من شخص معين** :orange_book: 
-
   ** -role all <rank> | لأعطاء رتبة للجميع**:shield: 
-
   ** -role humans <rank> | لأعطاء رتبة للاشخاص فقط **:man: , :woman: 
-
   **-role bots <rank> | لأعطاء رتبة لجميع البوتات**:robot: 
-
   ** -schannel | اضهار الشات المخفية**:blush: 
-
   ** -hchannel | اخفاء الشات**:arrow_heading_down: 
-
   ** -clr <numbr> | مسح الشات بعدد**:information_source: 
-
   ** -clear | مسح الشات ** :recycle: 
-
   ** -mute @user <reason> | اعطاء العضو ميوت لازم رتبة <Muted>**:mute:
-
   ** -unmute @user | لفك الميوت عن الشخص ** :loud_sound:
-
   ** -kick @user <reason> | طرد الشخص من السيرفر**  :outbox_tray:
-
   ** -ban @user <reason> | حضر الشخص من السيرفر** :no_entry:
-
   ** -mutechannel | تقفيل الشات**:no_entry:
-
   ** -unmutechannel | فتح الشات**:on:   
-
   ** -dc | مسح كل الرومات**
-
   ** -dr | <مسح كل الرانكات <لازم تكون رانك البوت فوق كل الرانكات**
-
   ** -ct <name> | انشاء شات**:rolling_eyes:
-
   ** -cv <name> | انشاء رووم فويس**:crown:
-
   ** -delet <name> | مسح الشات او الرووم فويس**
-
   ** -ccolors <number> | ينشا لك الوان مع كم الوان تبي**
-
   -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 `)
      message.author.sendEmbed(embed)
@@ -268,23 +240,14 @@ client.on('message', message => {
          .setColor("#FFFF00")
          .setDescription(`**  :video_game: الألعاب :video_game:**
   ** -rps | حجر ورقة مقص ** :video_game:
-
   ** -speed | اسرع كتابن ** :video_game:
-
   ** -quas | اسئلة عامة ** :video_game:
-
   ** -نكت | نكت ** :video_game:
-
   ** -لعبة فكك | فكك ** :video_game:
-
   ** -لعبة عواصم | عواصم** :video_game:
-
   ** -لعبة كت تويت | كت تويت ** :video_game:
-
   ** -roll | قرعة راندوم** :video_game:
-
   ** -لو خيروك بطريقة حلوة | لوخيروك
-
   ** -لعبة مريم | مريم** :video_game: 
   
   ** -فوائد نصائح | هلتعلم ** :video_game: 
@@ -305,19 +268,12 @@ client.on('message', message => {
            .setColor("#57FEFF")
            .setDescription(`** موسيقي :play_pause:  **
   ** -play | لتشغيل اغنية برابط او بأسم** 
-
   ** -skip | لتجآوز الأغنية الحآلية**
-
   ** -pause | إيقآف الأغنية مؤقتا**
-
   ** -resume | ل**موآصلة الإغنية بعد إيقآفهآ مؤقتا
-
   ** -vol | لتغيير درجة الصوت 100 - 0**
-
   ** -stop | لإخرآج البوت من الروم**
-
   ** -np | لمعرفة الأغنية المشغلة حآليا**
-
   ** -queue | لمعرفة قآئمة التشغيل**
   
   `)
@@ -332,59 +288,33 @@ client.on('message', message => {
            .setColor("#FF0000")
            .setDescription(`**   :earth_africa: الأوامر العامه :earth_africa: **
 **============ **
-
   ** -allbots | لعرض جميع البوتات الي بالسيرفر** :robot: 
-
   ** -server |يعرض لك معلومات عن السيرفر**:fire: 
-
   ** -bot | يعرض لك كل معلومات البوت**:computer: 
   
   ** -skin <name> | يعرض لك سكنك بماين كرافت**:blush:
-
   ** -count | يعرض لك عدد الاشخاص بالسيرفر بدون بوتات** :information_source:
-
   ** -invites | يعرض لك  عدد انفايتاتك بالسيرفر ** :microscope: 
-
   ** -invite-codes | يعرض لك روابط الانفايتات حكك في السيرفر **:spy: 
-
   ** -cal | اله حاسبة**:slot_machine: 
-
   ** -trans <language> <any thing> | يترجم لك الي تبيه من اي لغة**:writing_hand: 
-
   ** -short | يختصر لك رابط كبير الى رابط صغير**:mortar_board: 
-
   ** -tag | يكتب لك الكلمة بشكل جميل وكبير**:sunglasses: 
-
   ** -google | للبحث في قوقل عن طريق الدسكورد**:desktop: 
-
   ** -perms | يعرض لك برمشناتك بالسيرفر**:pushpin: 
-
   ** -za5 | يزخرف لك كلمة او جملة**:hearts: 
-
   ** -rooms | يعرض لك كل الرومات الي بالسيرفر مع عددها**:rocket: 
-
   ** -roles | يعرض لك كل الرانكات بالسيرفر بشكل جميل**
-
   ** -emojilist | يعرض لك كل الايموجيات الي بالسيرفر**:cry: :smile: :joy: 
-
   ** -say | يكرر الكلام الي تكتبو**:sparkles: 
-
   ** -image | صورة السيرفر**:bust_in_silhouette: 
-
   ** -members | يعرض لك عدد كل حالات الاشخاص وعدد البوتات وعدد الاشخاص**:selfie: 
-
   ** -profile | ليعرض البرفايل حقك** 
-
   ** -bans | عدد الاشخاص المبندة **:no_entry: 
-
   ** -avatar | صورتك او صورة الي تمنشنو**:bust_in_silhouette:
-
   ** -embed | يكرر الي تقولو بشكل حلو**:small_blue_diamond: 
-
   ** -emoji <any things> | لتحويل اي كلمه تقولها الي ايموجي**:small_orange_diamond: 
-
   ** -inv | لدعوة البوت الى سيرفرك**:black_circle: 
-
   ** -support | سيرفر الدعم**:wrench:  :envelope_with_arrow: 
   
   ** -contact | ارسال اقتراح او لمراسلة صاحب البوت**
@@ -401,7 +331,7 @@ client.on('message', message => {
       if (message.content === "-help-a") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *TGS_Fras#6671  ')
+           .setFooter('By *Fras#9999  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -413,7 +343,7 @@ client.on('message', message => {
       if (message.content === "-help-g") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *TGS_Fras#6671 ')
+           .setFooter('By *Fras#9999 ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -425,7 +355,7 @@ client.on('message', message => {
       if (message.content === "-help-m") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *TGS_Fras#6671  ')
+           .setFooter('By *Fras#9999  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -437,7 +367,7 @@ client.on('message', message => {
       if (message.content === "-help-p") {
        const embed = new Discord.RichEmbed() 
            .setColor("#FF00FF")
-           .setFooter('By *TGS_Fras#6671  ')
+           .setFooter('By *Fras#9999  ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس:revolving_hearts: __**`)
      message.author.sendEmbed(embed)
      
@@ -586,7 +516,7 @@ client.on('message', async msg => {
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 
-					.setFooter("BY TGS_Fras#6671")
+					.setFooter("BY Fras#9999")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					try {
@@ -726,7 +656,7 @@ function play(guild, song) {
 	serverQueue.textChannel.send(`بدء تشغيل : **${song.title}**`);
 }
 const adminprefix = "-";
-const devs = ['396958215377780747'];
+const devs = ['499665084637904896'];
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
@@ -852,7 +782,7 @@ client.on('message', message => {
 var embed = new Discord.RichEmbed()
 .setColor('RANDOM')
  .setThumbnail(message.author.avatarURL) 
-.addField('by TGS_Fras#6671' ,
+.addField('by Fras#9999' ,
 `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
 message.channel.sendEmbed(embed);
 console.log('[38ab] Send By: ' + message.author.username)
@@ -1121,7 +1051,7 @@ client.on('message', message => {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('``by TGS_Fras#6671`` ')
+            .setTitle('``by Fras#9999`` ')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -1327,7 +1257,7 @@ function getValue(key, array) {
     if(!message.channel.guild) return message.channel.send('**هذا الأمر فقط للسيرفرات**').then(m => m.delete(5000));
   if(!message.member.hasPermission('ADMINISTRATOR')) return      message.channel.send('**للأسف لا تمتلك صلاحية** `ADMINISTRATOR`' );
     let args = message.content.split(" ").join(" ").slice(2 + prefix.length);
-    let copy = "by TGS_Fras#6671";
+    let copy = "by Fras#9999";
     let request = `Requested By ${message.author.username}`;
     if (!args) return message.reply('**يجب عليك كتابة كلمة او جملة لإرسال البرودكاست**');message.channel.send(`**هل أنت متأكد من إرسالك البرودكاست؟ \nمحتوى البرودكاست:** \` ${args}\``).then(msg => {
     msg.react('✅')
@@ -2252,7 +2182,7 @@ const cuttweet = [     'كت تويت ‏| تخيّل لو أنك سترسم ش�
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL) 
- .addField('by TGS_Fras#6671' ,
+ .addField('by Fras#9999' ,
   `${cuttweet[Math.floor(Math.random() * cuttweet.length)]}`)
   message.channel.sendEmbed(embed);
   console.log('[id] Send By: ' + message.author.username)
@@ -2567,7 +2497,7 @@ client.on("message", message => {
   if (message.author.bot) return;
   if(!message.channel.guild)return;
   if (!profile[message.author.id]) profile[message.author.id] = {
-    tite: 'by TGS_Fras#6671',
+    tite: 'by Fras#9999',
     rep: 0,
     reps: 'NOT YET',
     lastDaily:'Not Collected',
@@ -2980,7 +2910,7 @@ var prefix = "-";
 if(message.channel.type === "dm") return;
 if(message.author.bot) return;
   if(!sWlc[message.guild.id]) sWlc[message.guild.id] = {
-    channel: "welcome"
+    channel: "chat"
 }
 const channel = sWlc[message.guild.id].channel
   if (message.content.startsWith(prefix + "setwelcomer")) {
@@ -2996,7 +2926,7 @@ const channel = sWlc[message.guild.id].channel
 
 client.on("guildMemberAdd", member => {
       if(!sWlc[member.guild.id]) sWlc[member.guild.id] = {
-    channel: "welcome"
+    channel: "chat"
   }
   const channel = sWlc[member.guild.id].channel
     const sChannel = sWlc[member.guild.id].channel
@@ -3229,11 +3159,10 @@ channel.guild.owner.send(`<@!${channelremover.id}>
     .setColor("#707070")
     .addField(': دخولك لديسكورد قبل', `${moment(heg.createdTimestamp).format('YYYY/M/D HH:mm:ss')} **\n** \`${moment(heg.createdTimestamp).fromNow()}\`` ,true) 
     .addField(': انضمامك لسيرفر قبل', `${moment(h.joinedAt).format('YYYY/M/D HH:mm:ss')} \n \`${moment(h.joinedAt).fromNow()}\``, true)               
-    .setFooter(`by TGS_Fras#6671`, 'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')                                 
+    .setFooter(`by Fras#9999`, 'https://images-ext-2.discordapp.net/external/JpyzxW2wMRG2874gSTdNTpC_q9AHl8x8V4SMmtRtlVk/https/orcid.org/sites/default/files/files/ID_symbol_B-W_128x128.gif')                                 
     .setThumbnail(heg.avatarURL);
     message.channel.send(id)
 }       });
 
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
-			      
